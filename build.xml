@@ -44,7 +44,7 @@
 
     <!-- Define the classpath which includes the junit.jar and the classes after compiling -->
     <path id="junit.class.path">
-        <pathelement location="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\lib\org.junit_4.13.0.v20200204-1500.jar" />
+        <pathelement location="lib/org.junit_4.13.0.v20200204-1500.jar" />
         <pathelement location="${build.dir}" />
     </path>
 
