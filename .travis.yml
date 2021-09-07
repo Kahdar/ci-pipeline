@@ -1,2 +1,2 @@
 language: java
-script: ant-optional
+script: ant test -lib .lib\junit-3.8.2.jar
