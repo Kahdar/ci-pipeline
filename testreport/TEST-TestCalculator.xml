@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="LAPTOP-MFQJKMTG" name="TestCalculator" skipped="0" tests="8" time="0.279" timestamp="2021-09-02T21:42:47">
+<testsuite errors="0" failures="0" hostname="LAPTOP-MFQJKMTG" name="TestCalculator" skipped="0" tests="8" time="0.307" timestamp="2021-09-07T23:52:19">
   <properties>
     <property name="ant.library.dir" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib" />
     <property name="java.specification.version" value="14" />
     <property name="ant.project.name" value="Calculator" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="sun.jnu.encoding" value="Cp1252" />
-    <property name="java.class.path" value="C:\Users\Sgamo\Desktop\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar;C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\bin;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-launcher.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\lib\org.junit_4.13.0.v20200204-1500.jar;C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\bin;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-launcher.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit.jar;C:\Users\Sgamo\Desktop\eclipse\plugins\org.apache.ant_1.10.8.v20200515-1239\lib\ant-junit4.jar" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="sun.arch.data.model" value="64" />
     <property name="user.variant" value="" />
@@ -16,7 +16,7 @@
     <property name="user.country" value="CR" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestCalculator skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\testreport\TEST-TestCalculator.xml crashfile=C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\junitvmwatcher273169145724349201.properties propsfile=C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\junit13878184905139851134.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestCalculator skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\testreport\TEST-TestCalculator.xml crashfile=C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\junitvmwatcher14772699005370785013.properties propsfile=C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\junit7198662776962284513.properties" />
     <property name="jdk.debug" value="release" />
     <property name="test.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\test" />
     <property name="sun.cpu.endian" value="little" />
@@ -72,14 +72,14 @@
     <property name="src.dir" value="C:\Users\Sgamo\Documents\GitHub\java-ci-pipeline\src" />
     <property name="ant.project.default-target" value="main" />
   </properties>
-  <testcase classname="TestCalculator" name="testmultiplicar" time="0.005" />
-  <testcase classname="TestCalculator" name="testrestar" time="0.004" />
+  <testcase classname="TestCalculator" name="testmultiplicar" time="0.003" />
+  <testcase classname="TestCalculator" name="testrestar" time="0.001" />
   <testcase classname="TestCalculator" name="testsumar2" time="0.0" />
-  <testcase classname="TestCalculator" name="testsumar" time="0.001" />
+  <testcase classname="TestCalculator" name="testsumar" time="0.0" />
   <testcase classname="TestCalculator" name="testrestar2" time="0.0" />
   <testcase classname="TestCalculator" name="testdividir" time="0.0" />
   <testcase classname="TestCalculator" name="testdividir2" time="0.0" />
-  <testcase classname="TestCalculator" name="testmultiplicar2" time="0.001" />
+  <testcase classname="TestCalculator" name="testmultiplicar2" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
