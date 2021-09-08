@@ -1,4 +1,4 @@
 language: java
 before_script:
    - sudo apt-get install ant-optional
-script: ant main -lib .lib\org.junit_4.13.0.v20200204-1500.jar
+script: ant junit -lib .lib\org.junit_4.13.0.v20200204-1500.jar
