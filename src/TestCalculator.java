@@ -32,7 +32,7 @@ public class TestCalculator extends TestCase {
     }
     public void testmultiplicar2(){
     	escenario ();
-        assertNotNull(calculator.multiplicar(2,2));
+        assertNotSame(calculator.multiplicar(2,2), calculator.multiplicar(3,2));
         
     }
     public void testdividir(){
