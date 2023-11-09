@@ -34,4 +34,4 @@ pipeline:
                     shell: Sh
                     command: |-
                       echo "Welcome to Harness CI"
-                      mvn -B package -f pom.xml
+                      mvn package
